@@ -1,0 +1,17 @@
+Klasa to szablon pozwalający zdefiniować złożone typy danych oraz cechy i funkcjonalności
+Obiekt to egzemplarz klasy i jest tworzony na podstawie klasy
+Zmienna to nazwa wskazująca na miejsce przechowywania danych, mających wartość?
+Każda zmienna musi mieć określony typ, np. int, albo String.
+W klasie mogą się znajdować konstruktory, zmienne i  metody
+Konstruktory są wywoływane przez operator new i służą do tworzenia nowych obiektów.
+Jeśli w klasie zdefiniowano chociaż jeden konstruktor to kompilator nie wygeneruje dla nas konstruktora domyślnego.
+Zakładając, że istnieje klasa Car, to przy zapisie:
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);
+
+car1 nazywamy obiektem,
+
+a przy zapisie:
+
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);  Car car2 = car1;
+
+car1 I car2 to dwie referencje wskazujące na ten sam obiekt
